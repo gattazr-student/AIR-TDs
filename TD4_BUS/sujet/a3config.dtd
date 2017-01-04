@@ -1,0 +1,20 @@
+<?xml encoding="US-ASCII"?>
+
+<!-- a3config.dtd -->
+
+<!ELEMENT config (host)*>
+<!ATTLIST config name CDATA "">
+<!ELEMENT host (server | transient)*>
+<!ATTLIST host hostname CDATA #REQUIRED>
+<!ELEMENT server (service)*>
+<!ATTLIST server id CDATA #REQUIRED
+        name CDATA ""
+        port CDATA #REQUIRED
+        tport CDATA "">
+<!ELEMENT transient (service)*>
+<!ATTLIST transient id CDATA #REQUIRED
+        name CDATA ""
+        server CDATA #REQUIRED>
+<!ELEMENT service EMPTY>
+<!ATTLIST service class CDATA #REQUIRED
+        args CDATA "">

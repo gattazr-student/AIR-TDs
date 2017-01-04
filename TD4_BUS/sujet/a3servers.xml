@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE config SYSTEM "a3config.dtd">
+<config>
+    <domain name="D1" />
+    <server id="0" name="s0" hostname="localhost">
+      <network domain="D1" port="11731"/>
+    </server>
+    <server id="1" name="s1" hostname="localhost">
+          <network domain="D1" port="11732"/>
+    </server>
+    
+</config>

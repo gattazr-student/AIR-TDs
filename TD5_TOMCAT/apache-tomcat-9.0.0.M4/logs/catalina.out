@@ -1,0 +1,459 @@
+25-Mar-2016 10:00:21.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:00:21.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:00:21.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:00:21.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:00:21.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=./conf/logging.properties
+25-Mar-2016 10:00:21.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:00:21.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=.
+25-Mar-2016 10:00:21.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=.
+25-Mar-2016 10:00:21.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=./temp
+25-Mar-2016 10:00:21.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:00:21.834 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:00:21.873 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:00:21.875 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:00:21.876 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:00:21.876 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 636 ms
+25-Mar-2016 10:00:21.899 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:00:21.900 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:00:21.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:00:22.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 202 ms
+25-Mar-2016 10:00:22.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:00:22.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 10:00:22.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:00:22.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 171 ms
+25-Mar-2016 10:00:22.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:00:22.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 15 ms
+25-Mar-2016 10:00:22.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:00:22.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 20 ms
+25-Mar-2016 10:00:22.333 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:00:22.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:00:22.337 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 461 ms
+25-Mar-2016 10:23:13.593 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+25-Mar-2016 10:23:13.593 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/examples] a démarré
+25-Mar-2016 10:23:13.750 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+25-Mar-2016 10:26:33.792 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+25-Mar-2016 10:26:33.793 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/examples] a démarré
+25-Mar-2016 10:26:33.964 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+25-Mar-2016 10:28:03.984 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+25-Mar-2016 10:28:03.984 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/examples] a démarré
+25-Mar-2016 10:28:04.058 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+25-Mar-2016 10:29:38.204 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 10:29:38.204 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:29:38.258 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:29:38.314 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 10:29:38.333 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:29:38.336 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:29:38.336 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:29:38.337 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:29:44.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:29:44.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 10:29:44.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:29:44.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:29:44.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:29:44.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 10:29:44.282 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:29:44.382 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:29:44.405 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:29:44.407 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:29:44.408 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:29:44.408 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 422 ms
+25-Mar-2016 10:29:44.427 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:29:44.427 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:29:44.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:29:44.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 181 ms
+25-Mar-2016 10:29:44.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:29:44.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 10:29:44.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:29:44.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 167 ms
+25-Mar-2016 10:29:44.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:29:44.812 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 15 ms
+25-Mar-2016 10:29:44.812 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:29:44.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 21 ms
+25-Mar-2016 10:29:44.835 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:29:44.839 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:29:44.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 431 ms
+25-Mar-2016 10:43:26.368 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 10:43:26.369 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:43:26.423 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:43:26.478 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 10:43:26.498 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:43:26.501 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:43:26.502 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:43:26.502 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:43:26.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:43:26.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:43:26.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 10:43:26.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:43:26.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:43:26.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:43:26.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 10:43:26.919 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:43:27.016 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:43:27.038 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:43:27.040 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:43:27.041 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:43:27.042 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 434 ms
+25-Mar-2016 10:43:27.060 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:43:27.060 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:43:27.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:43:27.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 181 ms
+25-Mar-2016 10:43:27.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:43:27.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 12 ms
+25-Mar-2016 10:43:27.260 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:43:27.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 186 ms
+25-Mar-2016 10:43:27.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:43:27.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 15 ms
+25-Mar-2016 10:43:27.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:43:27.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 20 ms
+25-Mar-2016 10:43:27.484 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:43:27.487 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:43:27.488 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 446 ms
+25-Mar-2016 10:57:45.987 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 10:57:45.988 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:57:46.042 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:57:46.093 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 10:57:46.123 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:57:46.126 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:57:46.127 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:57:46.128 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:57:46.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:57:46.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:57:46.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:57:46.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:57:46.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 10:57:46.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:57:46.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:57:46.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:57:46.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 10:57:46.481 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:57:46.577 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:57:46.598 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:57:46.600 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:57:46.602 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:57:46.602 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 394 ms
+25-Mar-2016 10:57:46.620 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:57:46.621 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:57:46.626 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:57:46.802 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 175 ms
+25-Mar-2016 10:57:46.802 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:57:46.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 10:57:46.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:57:46.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 160 ms
+25-Mar-2016 10:57:46.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:57:46.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 14 ms
+25-Mar-2016 10:57:46.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:57:47.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 21 ms
+25-Mar-2016 10:57:47.014 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:57:47.018 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:57:47.019 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 416 ms
+25-Mar-2016 10:58:09.365 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 10:58:09.366 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:09.419 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:09.470 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 10:58:09.493 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:09.497 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:09.497 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:09.498 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:09.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:58:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 10:58:09.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:58:09.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:09.965 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:58:09.967 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:09.968 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:58:09.968 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 389 ms
+25-Mar-2016 10:58:09.985 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:58:09.985 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:58:09.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:58:10.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 173 ms
+25-Mar-2016 10:58:10.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:58:10.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 10:58:10.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:58:10.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 162 ms
+25-Mar-2016 10:58:10.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:58:10.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 16 ms
+25-Mar-2016 10:58:10.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:58:10.379 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 20 ms
+25-Mar-2016 10:58:10.381 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:58:10.384 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:58:10.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 416 ms
+25-Mar-2016 10:58:32.550 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 10:58:32.550 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:32.603 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:32.655 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 10:58:32.679 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:32.681 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:32.682 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:32.682 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:33.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:58:33.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 10:58:33.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 10:58:33.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 10:58:33.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 10:58:33.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 10:58:33.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:33.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 10:58:33.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 10:58:33.063 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 10:58:33.159 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 10:58:33.182 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:58:33.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 10:58:33.185 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 10:58:33.185 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 410 ms
+25-Mar-2016 10:58:33.208 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 10:58:33.208 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 10:58:33.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 10:58:33.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 214 ms
+25-Mar-2016 10:58:33.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 10:58:33.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 16 ms
+25-Mar-2016 10:58:33.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 10:58:33.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 284 ms
+25-Mar-2016 10:58:33.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 10:58:33.754 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 24 ms
+25-Mar-2016 10:58:33.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 10:58:33.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 29 ms
+25-Mar-2016 10:58:33.785 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 10:58:33.789 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 10:58:33.789 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 603 ms
+25-Mar-2016 11:06:43.173 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 11:06:43.173 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:06:43.230 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:06:43.287 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 11:06:43.308 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:06:43.311 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:06:43.312 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:06:43.312 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:06:43.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:06:43.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 11:06:43.718 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 11:06:43.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:06:43.841 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:06:43.843 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:06:43.844 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:06:43.845 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 442 ms
+25-Mar-2016 11:06:43.866 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 11:06:43.866 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:06:43.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 11:06:44.059 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 186 ms
+25-Mar-2016 11:06:44.059 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 11:06:44.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 11 ms
+25-Mar-2016 11:06:44.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 11:06:44.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 181 ms
+25-Mar-2016 11:06:44.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 11:06:44.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 30 ms
+25-Mar-2016 11:06:44.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 11:06:44.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 50 ms
+25-Mar-2016 11:06:44.335 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 11:06:44.339 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 11:06:44.340 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 495 ms
+25-Mar-2016 11:07:22.374 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 11:07:22.375 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:07:22.431 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:07:22.484 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 11:07:22.505 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:07:22.508 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:07:22.508 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:07:22.509 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:07:22.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:07:22.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 11:07:22.901 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 11:07:23.003 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:07:23.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:07:23.028 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:07:23.029 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:07:23.030 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 430 ms
+25-Mar-2016 11:07:23.054 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 11:07:23.054 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:07:23.061 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 11:07:23.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 191 ms
+25-Mar-2016 11:07:23.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 11:07:23.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 11:07:23.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 11:07:23.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 199 ms
+25-Mar-2016 11:07:23.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 11:07:23.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 14 ms
+25-Mar-2016 11:07:23.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 11:07:23.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 22 ms
+25-Mar-2016 11:07:23.505 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 11:07:23.508 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 11:07:23.509 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 479 ms
+25-Mar-2016 11:13:31.278 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 11:13:31.279 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:13:31.333 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:13:31.389 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 11:13:31.421 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:13:31.423 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:13:31.424 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:13:31.424 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:13:31.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:13:31.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 11:13:31.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 11:13:31.893 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:13:31.915 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:13:31.917 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:13:31.918 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:13:31.919 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 412 ms
+25-Mar-2016 11:13:31.937 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 11:13:31.937 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:13:31.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 11:13:32.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 190 ms
+25-Mar-2016 11:13:32.135 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 11:13:32.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 11:13:32.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 11:13:32.434 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 285 ms
+25-Mar-2016 11:13:32.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 11:13:32.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 23 ms
+25-Mar-2016 11:13:32.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 11:13:32.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 29 ms
+25-Mar-2016 11:13:32.490 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 11:13:32.497 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 11:13:32.498 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 579 ms
+25-Mar-2016 11:15:32.485 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 11:15:32.485 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:15:32.545 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:15:32.599 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 11:15:32.620 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:15:32.623 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:15:32.623 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:15:32.632 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:15:32.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:15:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+25-Mar-2016 11:15:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+25-Mar-2016 11:15:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Mar-2016 11:15:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.4
+25-Mar-2016 11:15:32.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/conf/logging.properties
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:15:32.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4
+25-Mar-2016 11:15:32.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/temp
+25-Mar-2016 11:15:32.999 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/gattazr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+25-Mar-2016 11:15:33.096 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 11:15:33.121 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:15:33.124 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 11:15:33.125 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Mar-2016 11:15:33.125 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 421 ms
+25-Mar-2016 11:15:33.143 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+25-Mar-2016 11:15:33.143 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+25-Mar-2016 11:15:33.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT de l'application web
+25-Mar-2016 11:15:33.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 184 ms
+25-Mar-2016 11:15:33.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs de l'application web
+25-Mar-2016 11:15:33.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/docs has finished in 14 ms
+25-Mar-2016 11:15:33.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples de l'application web
+25-Mar-2016 11:15:33.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/examples has finished in 251 ms
+25-Mar-2016 11:15:33.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager de l'application web
+25-Mar-2016 11:15:33.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 18 ms
+25-Mar-2016 11:15:33.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager de l'application web
+25-Mar-2016 11:15:33.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/gattazr/Documents/Cours/polytech/S8/CAR/TD5_TOMCAT/apache-tomcat-9.0.0.M4/webapps/manager has finished in 28 ms
+25-Mar-2016 11:15:33.650 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+25-Mar-2016 11:15:33.654 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+25-Mar-2016 11:15:33.655 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 529 ms
+25-Mar-2016 14:05:00.158 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Mar-2016 14:05:00.158 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 14:05:00.211 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 14:05:00.263 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service Catalina
+25-Mar-2016 14:05:00.282 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 14:05:00.285 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Mar-2016 14:05:00.285 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Mar-2016 14:05:00.286 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

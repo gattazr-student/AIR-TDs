@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="RMI">
+    <target name="Registry">
+        <exec executable="rmiregistry" spawn="true" newenvironment="true">
+        </exec>
+    </target>
+	
+</project>
